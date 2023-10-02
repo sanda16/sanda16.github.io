@@ -81,10 +81,6 @@ padding: 20px;
     object-fit: cover;
 }
 
-main nav{
-    background-color: linear-gradient(to bottom, rgba(51, 51, 51, 1), transparent, transparent, rgba(0, 0, 0, 1));
-}
-
 nav li{
     display: inline-block;
     margin: 0 10px;
@@ -95,13 +91,18 @@ nav li{
 #statistics, #programming, #mathematics, #physics{
     padding: 20px;
     margin: 10px 0;
-    border: 1px solid #ccc; /* Gray border */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    border: 1px solid #ccc;
 }
 
-#physics img{
+#physics img, #mathematics img, #programming img, #statistics img{
     width: 100%;
     height: 260px;
     object-fit: cover;
     border-radius: 4px;
+    filter: grayscale(100%);
+    margin: 5px;
+}
+
+#statistics img{
+    object-position: top;
 }
