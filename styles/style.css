@@ -1,107 +1,107 @@
-body {
-    color: white;
-    background-color: black;
-  }
 
-/* Set a background color and font styles */
 body {
-font-family: Arial, sans-serif;
-background-color: #f0f0f0;
-color: #333;
-line-height: 1.6;
+    background-color: #000000;
+    color: #f5f5f5;
+    line-height: 1.6;
+    font-family: 'Noto Sans SC', sans-serif;
 }
 
-/* Create a header section */
 header {
-background-color: #007bff;
-color: #fff;
-padding: 20px;
-text-align: center;
+    padding: 20px 0;
+    text-align: center;
 }
 
-/* Style the navigation menu */
 nav {
-background-color: #333;
+    background-color: #333;
+    padding: 15px 0;
+    text-align: center;
 }
 
 nav a {
-text-decoration: none;
-color: #fff;
-font-weight: bold;
-padding: 10px 20px;
+    color: #f5f5f5;
+    margin: 0 10px;
+    text-decoration: none;
 }
 
-/* Style main content sections */
-main {
-max-width: 1200px;
-margin: 0 auto;
-padding: 20px;
-background-color: #fff;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+section {
+    margin-bottom: 20px;
 }
 
-/* Style headings and paragraphs */
-h1, h2, h3 {
-color: #333;
-margin-bottom: 10px;
-}
-
-p {
-margin-bottom: 20px;
-}
-
-/* Style the "Featured Subjects" section */
-#subjects ul {
-list-style: none;
-}
-
-/* Style the "Why Choose Science for Mastery?" section */
-#why-us ul {
-list-style: none;
-}
-
-/* Style blockquotes */
-blockquote {
-border-left: 3px solid #007bff;
-padding-left: 10px;
-margin: 20px 0;
-}
-
-blockquote p {
-font-style: italic;
-font-size: 18px;
-}
-
-blockquote footer {
-margin-top: 10px;
-font-weight: bold;
-}
-
-/* Style the footer section */
-footer {
-background-color: #333;
-color: #fff;
-padding: 20px;
-text-align: center;
-}
-
-/* Add responsive styles for smaller screens */
-@media (max-width: 768px) {
-header {
-    padding: 10px;
-}
-
-nav a {
-    display: block;
-    padding: 10px 0;
-}
-
-main {
-    padding: 10px;
+li {
+    margin: 5px 0;
+    list-style: circle;
+    margin-left: 30px;
 }
 
 blockquote {
-    padding-left: 5px;
+    border-left: 5px solid #f5f5f5;
+    padding-left: 10px;
     margin: 10px 0;
 }
+
+footer {
+    background-color: #333;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+
+footer a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.current{
+    color: cornflowerblue;
+}
+
+nav a:hover{
+    color:cornflowerblue;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+  }
+
+.text {
+position: absolute;
+top: 8px;
+text-align: center;
+padding: 20px;
+}
+
+.image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+main nav{
+    background-color: linear-gradient(to bottom, rgba(51, 51, 51, 1), transparent, transparent, rgba(0, 0, 0, 1));
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    list-style: none;
+}
+
+#statistics, #programming, #mathematics, #physics{
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc; /* Gray border */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+#physics img{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 4px;
 }
