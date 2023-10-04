@@ -206,4 +206,51 @@ td {
 tr:hover {
     background-color: black;
 }
+/* end of new code!!!!!! */
 
+/* another new code!!!!! */
+
+.contact-container {
+    background-color: #000000;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type="submit"] {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+input[type="submit"]:hover {
+    background-color: #333;
+}
+
+.thank-you-container {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
