@@ -265,15 +265,8 @@ input[type="submit"]:hover {
     padding: 20px;
 }
 
-.about-container p{
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 15px;
-}
 
-/* end of another another new code!!!!! */
-
-.testimonial-container {
+.testimonial-container, .faq-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -287,7 +280,7 @@ input[type="submit"]:hover {
     border-radius: 5px;
 }
 
-.testimonial p {
+.about-container p, .testimonial p, .question p {
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 10px;
@@ -296,3 +289,14 @@ input[type="submit"]:hover {
 .testimonial p.author {
     font-weight: bold;
 }
+
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
