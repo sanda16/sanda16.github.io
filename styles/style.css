@@ -91,7 +91,6 @@ nav li{
 #statistics, #programming, #mathematics, #physics{
     padding: 20px;
     margin: 10px 0;
-    border: 1px solid #ccc;
 }
 
 #physics img, #mathematics img, #programming img, #statistics img{
@@ -273,3 +272,27 @@ input[type="submit"]:hover {
 }
 
 /* end of another another new code!!!!! */
+
+.testimonial-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.testimonial p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.testimonial p.author {
+    font-weight: bold;
+}
